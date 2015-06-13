@@ -3,14 +3,21 @@ import React from 'react';
 const Head = React.createClass({
 
 	render() {
-		const styles = this.props.styles.map((url) =>
-				<link rel="stylesheet"
-					  href={url}/>
-		);
+		let styles;
+
+		if (this.props.styles) {
+			styles = this.props.styles.map((url, index) =>
+					<link rel="stylesheet"
+						  href={url}
+						  key={index}/>
+			);
+		}
 
 		return (
 			<head>
 				<title>{this.props.title}</title>
+				<meta name='viewport'
+					  content='width=device-width, initial-scale=1.0'/>
 				{styles}
 			</head>
 		)

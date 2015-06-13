@@ -3,9 +3,14 @@ import React from 'react';
 const Body = React.createClass({
 
 	render() {
-		const scripts = this.props.scripts.map((url) =>
-				<script src={url}/>
-		);
+		let scripts;
+
+		if (this.props.scripts) {
+			scripts = this.props.scripts.map((url, index) =>
+					<script src={url}
+							key={index}/>
+			);
+		}
 
 		return (
 			<body>
