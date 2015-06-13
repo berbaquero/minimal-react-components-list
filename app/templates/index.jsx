@@ -3,8 +3,8 @@ import Root from './root';
 
 const Index = React.createClass({
 
-	styles: ['/dist/main.css'],
-	scripts: ['/dist/main.js'],
+	styles: ['dist/main.css'],
+	scripts: ['dist/main.js'],
 
 	render() {
 		return (
