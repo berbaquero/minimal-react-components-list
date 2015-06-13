@@ -1,0 +1,10 @@
+@import "base/variables";
+
+body {
+	font-family: 'Avenir Next', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+	color: #292c33;
+	margin: $spacing;
+}
+
+@import "components/header";
+@import "components/item";

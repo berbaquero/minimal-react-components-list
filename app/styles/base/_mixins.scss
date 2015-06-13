@@ -1,0 +1,54 @@
+@mixin size($width, $height: $width, $type: normal) {
+    @if $type == normal {
+        width: $width;
+        height: $height;
+    }
+
+    @if $type == max {
+        max-width: $width;
+        max-height: $height;
+    }
+
+    @if $type == min {
+        min-width: $width;
+        min-height: $height;
+    }
+}
+
+@mixin position($position, $type, $margins: 0) {
+	position: $position;
+
+	@if $type == top-left {
+		top: $margins;
+		left: $margins;
+	}
+
+	@if $type == top-right {
+		top: $margins;
+		right: $margins;
+	}
+
+	@if $type == bottom-left {
+		bottom: $margins;
+		left: $margins;
+	}
+
+	@if $type == bottom-right {
+		bottom: $margins;
+		right: $margins;
+	}
+
+	@if $type == stretched {
+		top: 0;
+		right: 0;
+		bottom: 0;
+		left: 0;
+	}
+}
+
+@mixin hocus {
+	&:hover,
+	&:focus {
+		@content;
+	}
+}

@@ -1,0 +1,35 @@
+@import "../base/variables";
+@import "../base/mixins";
+
+.items-list {
+	padding: 0;
+	list-style: none;
+}
+
+.item {
+	margin-bottom: $spacing * 2;
+	border-left: 4px solid darken(cornflowerblue, 10%);
+	padding-left: 16px;
+
+	a {
+		color: cornflowerblue;
+		text-decoration: none;
+
+		@include hocus {
+			text-decoration: underline;
+		}
+	}
+
+	pre {
+		background-color: aliceblue;
+		font-weight: 600;
+		font-size: 1.2em;
+		display: inline-block;
+		margin: ($spacing / 2) ($spacing / 2) 0 0;
+		padding: $spacing / 2;
+	}
+
+	&-title {
+		font-size: 1.5em;
+	}
+}
