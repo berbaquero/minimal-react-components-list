@@ -13,7 +13,7 @@
     "build-styles": "sass --update --force --style compressed $npm_package_appDir/styles:$npm_package_buildDir",
     "build-statics": "node build",
     "start": "npm run clean; npm run watch-styles & npm run watch-scripts",
-    "build": "npm run clean; npm run build-styles & npm run build-scripts & npm run build-statics"
+    "build": "npm run clean; npm run build-styles; npm run build-scripts; npm run build-statics"
   },
   "dependencies": {
     "babel-core": "^5.5.6",
