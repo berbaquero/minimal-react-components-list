@@ -8,7 +8,16 @@ const Item = React.createClass({
 		let {description, files, html_url} = this.props.data;
 
 		const fileList = Object.keys(files).map((file, index) => {
-			return <pre key={index}>{file}</pre>;
+			const fileAsHash = file.toLowerCase().replace(/\./, '-');
+			return (
+				<pre key={index}>
+					<a href={html_url + "#file-" + fileAsHash}
+					   className='ui-link ui-blue'
+					   target='_blank'>
+						{file}
+					</a>
+				</pre>
+			);
 		});
 
 		// Remove the Gist's original react label prefix
