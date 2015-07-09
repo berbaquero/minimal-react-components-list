@@ -1,0 +1,13 @@
+@import "../base/mixins";
+
+.ui-link {
+	text-decoration: none;
+
+	@include hocus {
+		text-decoration: underline;
+	}
+}
+
+.ui-blue {
+	color: cornflowerblue;
+}

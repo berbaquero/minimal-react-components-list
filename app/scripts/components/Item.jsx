@@ -17,7 +17,7 @@ const Item = React.createClass({
 		return (
 			<li className='item'>
 				<a href={html_url}
-				   className='item-title'
+				   className='item-title ui-link ui-blue'
 				   target='_blank'>{description}</a>
 
 				<div>
