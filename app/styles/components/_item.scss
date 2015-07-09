@@ -11,15 +11,6 @@
 	border-left: 4px solid darken(cornflowerblue, 10%);
 	padding-left: 16px;
 
-	a {
-		color: cornflowerblue;
-		text-decoration: none;
-
-		@include hocus {
-			text-decoration: underline;
-		}
-	}
-
 	pre {
 		background-color: aliceblue;
 		font-weight: 600;
