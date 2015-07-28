@@ -7,12 +7,13 @@ const Root = React.createClass({
 	render() {
 		return (
 			<html>
-				<Head title={this.props.title}
-					  styles={this.props.styles}/>
+			<Head title={this.props.title}
+				  styles={this.props.styles}
+				  faviconURL='imgs/icon.png'/>
 
-				<Body scripts={this.props.scripts}>
-					{this.props.children}
-				</Body>
+			<Body scripts={this.props.scripts}>
+			{this.props.children}
+			</Body>
 			</html>
 		)
 	}
