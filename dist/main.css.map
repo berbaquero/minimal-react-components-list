@@ -1,7 +1,7 @@
 {
 "version": 3,
-"mappings": "AAEA,IAAK,CACJ,WAAW,CAAE,6DAA6D,CAC1E,KAAK,CAAE,OAAO,CACd,MAAM,CCLG,IAAI,CCAd,MAAO,CACN,aAAa,CAAE,wBAAwB,CCExC,WAAY,CACX,OAAO,CAAE,CAAC,CACV,UAAU,CAAE,IAAI,CAGjB,KAAM,CACL,aAAa,CAAE,IAAY,CAC3B,WAAW,CAAE,iBAAqC,CAClD,YAAY,CAAE,IAAI,CAElB,SAAI,CACH,gBAAgB,CAAE,SAAS,CAC3B,WAAW,CAAE,GAAG,CAChB,SAAS,CAAE,KAAK,CAChB,OAAO,CAAE,YAAY,CACrB,MAAM,CAAE,WAAiC,CACzC,OAAO,CAAE,GAAY,CAGtB,WAAQ,CACP,SAAS,CAAE,KAAK,CCrBlB,QAAS,CACR,eAAe,CAAE,IAAI,CC8CrB,6BACQ,CD5CP,eAAe,CAAE,SAAS,CAI5B,QAAS,CACR,KAAK,CAAE,cAAc",
-"sources": ["../app/styles/components/_body.scss","../app/styles/base/_variables.scss","../app/styles/components/_header.scss","../app/styles/components/_item.scss","../app/styles/modules/_UI-helpers.scss","../app/styles/base/_mixins.scss"],
+"mappings": "AAEA,IAAK,CACJ,WAAW,CAAE,6DAA6D,CAC1E,KAAK,CAAE,OAAO,CACd,MAAM,CAAE,WAAW,CCLpB,MAAO,CACN,aAAa,CAAE,wBAAwB,CCExC,WAAY,CACX,OAAO,CAAE,CAAC,CACV,UAAU,CAAE,IAAI,CAGjB,KAAM,CACL,aAAa,CAAE,IAAY,CAC3B,WAAW,CAAE,iBAAqC,CAClD,YAAY,CAAE,IAAI,CAElB,SAAI,CACH,gBAAgB,CAAE,SAAS,CAC3B,WAAW,CAAE,GAAG,CAChB,SAAS,CAAE,KAAK,CAChB,OAAO,CAAE,YAAY,CACrB,MAAM,CAAE,WAAiC,CACzC,OAAO,CAAE,GAAY,CAGtB,WAAQ,CACP,SAAS,CAAE,KAAK,CCrBlB,QAAS,CACR,eAAe,CAAE,IAAI,CC8CrB,6BACQ,CD5CP,eAAe,CAAE,SAAS,CAI5B,QAAS,CACR,KAAK,CAAE,cAAc",
+"sources": ["../app/styles/components/_body.scss","../app/styles/components/_header.scss","../app/styles/components/_item.scss","../app/styles/modules/_UI-helpers.scss","../app/styles/base/_mixins.scss"],
 "names": [],
 "file": "main.css"
 }
